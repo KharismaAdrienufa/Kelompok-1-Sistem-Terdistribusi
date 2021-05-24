@@ -3,32 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Online WebChatting</title>
+    <title>Online Chatting</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <nav class="navigasi"navbar-fixed-stop>
-		<div class="navigasi-tulisan">
-			<a href="../index.html" class="nav-aktif">HOME</a>
-			<a href="../logout.html" class="">LOGOUT</a>
+    <header>
+		<div class="nav">
+            <ul>
+			    <a href="index.html" id="right">HOME</a>
+			    <a href="login(user).html" id="left">LOGOUT</a>
+            </ul>
 		</div>
-        <div class="navigasi-logo">
-            <img src="logoweb.png" alt="" id="image-navigasi">
+        <div class="empty"></div>
+        <div class="subtitle">
+            <h1>Online Chatting</h1>
         </div>
-    </nav>
+        <div class="logo">
+            <img src="logoweb.png" alt="Logo Web">
+        </div>
+    </header>
     
-    <div class="home">
-        <div class="button">
-            <button type="submit">group chat</button>
+    <div class="container">
+        <div class="tombol">
+            <a href="group page.html"><button type="submit" id="green">Group Chat</button></a>
+            <a href="private page.html"><button type="submit" id="yellow">Private Chat</button></a>
         </div>
-        <div class="button">
-            <button type="submit">private chat</button>
-        </div>
-
-        <!-- <div class="follow">
-            <a href="instagram.com" ><img src="repo page/file gambar/logo-instagram.png" alt="" id="follow"></a>
-			<a href="instagram.com" ><img src="repo page/file gambar/logo-google.png" alt="" id="follow"></a>
-			<a href="instagram.com" ><img src="repo page/file gambar/logo-facebook.png" alt="" id="follow"></a>
-        </div> -->
     </div>
 </body>
 </html>
